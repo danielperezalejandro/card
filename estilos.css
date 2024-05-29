@@ -1,0 +1,113 @@
+
+:root{
+
+
+
+    --oscuro: hsl(233, 47%, 7%);
+    --azuloscuro: hsl(244, 38%, 16%);
+    --violetasuave: hsl(277, 59%, 52%);
+    --blanco: hsl(0, 0%, 100%);
+    --blancotransparente: hsla(0, 0%, 100%, 0.75);
+    --mastransparente:hsla(0, 0%, 100%, 0.6);
+
+}
+
+
+
+body{
+
+ background-color: var(--oscuro);
+   
+
+}
+
+
+
+.contenido{
+    background-color: grey;
+    display: flex;
+    width: 50rem;
+    margin:auto;
+    margin-top: 10rem;
+    border-radius: 2rem;
+    border-radius: 7px;
+    overflow: hidden;
+    
+   
+    
+}
+
+.texto{
+    background-color: var(--azuloscuro);
+    padding: 2.5rem;
+    width: 50%;
+   
+   
+    
+}
+
+
+
+
+header h1{
+    color: var(--blanco);
+    font-family:'Inter', sans-serif;
+    font-size: 1.6rem;
+}
+
+
+.parrafo h1{
+    color: var(--blancotransparente);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.8rem;
+}
+
+
+.articulos{
+    text-align: left;
+    display: flex; 
+    margin-top: 3rem;  
+    
+}
+
+
+
+.articulos article{
+    color: var(--blanco);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.65rem;
+    
+    
+    
+}
+span{
+    color:var(--violetasuave) ;
+}
+
+
+
+.articulos p {
+    margin-top: 1px;
+}
+ .articulos h2{
+    
+    margin-bottom: 1px;
+ }
+
+
+
+.imagen{
+    width: 100%;
+    opacity: 50%;
+    
+   
+}
+
+.fondoimagen{
+   background-color:var(--violetasuave) ;
+    
+
+}
+
